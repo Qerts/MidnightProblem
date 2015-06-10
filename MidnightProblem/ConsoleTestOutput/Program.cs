@@ -15,7 +15,7 @@ namespace ConsoleTestOutput
             Console.WriteLine("Booting please wait...");
             System.Threading.Thread.Sleep(2000);
             Console.WriteLine("Done");
-            Console.WriteLine("Welcome to UI testing terminal. Type 'help' for avaiable commands");
+            Console.WriteLine("Welcome to UI testing terminal. Its friday 5th June. Time is 11:51 PM. \nType 'help' for available commands");
             Console.ReadKey();
         }
     }
