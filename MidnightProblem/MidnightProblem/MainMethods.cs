@@ -8,10 +8,27 @@ namespace MidnightProblem
 {
     public static class MainMethods
     {
-        public static void PrintText(string text)
+        public static void InitMethod() 
+        {
+            
+        }
+
+        public static void PrintText(Quote quote)
         {
         
         }
+
+        public static void PrintMenu(Quote quote)
+        { 
+        
+        }
+
+        public static void ReadPlayerChoice() 
+        {
+        
+        }
+
+
 
     }
 }

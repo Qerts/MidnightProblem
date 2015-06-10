@@ -10,6 +10,9 @@ namespace MidnightProblem
     {
         static void Main(string[] args)
         {
+
+            MainMethods.InitMethod();
+            Console.ReadKey();
         }
     }
 }
