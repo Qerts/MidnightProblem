@@ -8,7 +8,7 @@ namespace MidnightProblem
 {
     public static class ListOfQuotes
     {
-        private static List<Quote> list;
+        private static List<Quote> list = new List<Quote>();
         public static void AddQuote(Quote quota) 
         {
             if (GetQuote(quota.Id) == null)
@@ -29,9 +29,12 @@ namespace MidnightProblem
             return null;
         }
 
-        public static void DeleteQuote(int id) 
+        public static void DeleteQuote(Quote quote) 
         {
-            list.Remove()
+            //list.Remove()
         }
+
+        
+
     }
 }

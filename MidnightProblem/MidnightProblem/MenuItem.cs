@@ -13,7 +13,6 @@ namespace MidnightProblem
         public int Id
         {
             get { return id; }
-            set { id = value; }
         }
         private string text;
 
@@ -21,6 +20,21 @@ namespace MidnightProblem
         {
             get { return text; }
             set { text = value; }
+        }
+
+        private Quote quote;
+
+        public Quote Quote
+        {
+            get { return quote; }
+            set { quote = value; }
+        }
+
+        public MenuItem(int id, string text, Quote quote) 
+        {
+            this.id = id;
+            this.text = text;
+            this.quote = quote;
         }
     }
 }
