@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidnightProblem", "MidnightProblem\MidnightProblem.csproj", "{004CF77E-8E5F-4A0E-9B66-0C6A898A51EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestOutput", "ConsoleTestOutput\ConsoleTestOutput.csproj", "{F1845F91-0C34-4366-906F-F242EE217645}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{004CF77E-8E5F-4A0E-9B66-0C6A898A51EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{004CF77E-8E5F-4A0E-9B66-0C6A898A51EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{004CF77E-8E5F-4A0E-9B66-0C6A898A51EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1845F91-0C34-4366-906F-F242EE217645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1845F91-0C34-4366-906F-F242EE217645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1845F91-0C34-4366-906F-F242EE217645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1845F91-0C34-4366-906F-F242EE217645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
