@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book version="1">
+	<title>Untitled</title>
+	<sections>
+		<section>
+			<number>1</number>
+			<shiftable>true</shiftable>
+			<summary/>
+			<text>
+				<p order="1">WELCOME TO BIG DATA ANALISYS SYSTEM   --- COLOSUS TRIMEX ---</p>
+				<p order="2"/>
+				<p order="3"/>
+				<p order="4"/>
+				<p order="5">INIT PROCEDURES EXECUTED</p>
+				<p order="6"/>
+				<p order="7">ACTIVATING MAIN CORE....................................DONE</p>
+				<p order="8">ACTIVATING LEARNING SUBSYSTEM.......................DONE</p>
+				<p order="9">ACTIVATING ANALYTIC SUBSYSTEM.......................DONE</p>
+				<p order="10">ACTIVATING TEST LOG......................................DONE</p>
+				<p order="11"/>
+				<p order="12">ENABLING SHOUT TRACING</p>
+				<p order="13">ENABLING MULTI CONSOLE ACCESS</p>
+				<p order="14">ENABLING AI SUBROUTINES</p>
+				<p order="15"/>
+				<p order="16">ENTERING TEST MODE</p>
+				<p order="17"/>
+				<p order="18">Type &apos;help&apos; form available commands.</p>
+				<p order="19"/>
+				<p order="20">Note: System is not fully build. There are only few commands yet.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Help 1</p>
+					</text>
+					<destination>2</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">Kill 1</p>
+					</text>
+					<destination>3</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">Comm 1</p>
+					</text>
+					<destination>4</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">Exec 1</p>
+					</text>
+					<destination>5</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">Stop 1</p>
+					</text>
+					<destination>6</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">Config 1</p>
+					</text>
+					<destination>7</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>2</number>
+			<shiftable>true</shiftable>
+			<summary>Help 1</summary>
+			<text>
+				<p order="1">You can use one of commands listed below:</p>
+				<p order="2">Kill                  kills main thread</p>
+				<p order="3">Comm            can be used for system communication with other consoles</p>
+				<p order="4">Exec              executes specified procedure, routine or subsystem Note: in test mode aren&apos;t executable all procedures</p>
+				<p order="5">Stop              stops specified procedure, routine or subsystem</p>
+				<p order="6">Config           shows current system configuration Note: in test mode aren&apos;t shown all configurations</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text/>
+					<destination>3</destination>
+				</choice>
+				<choice>
+					<text/>
+					<destination>4</destination>
+				</choice>
+				<choice>
+					<text/>
+					<destination>5</destination>
+				</choice>
+				<choice>
+					<text/>
+					<destination>6</destination>
+				</choice>
+				<choice>
+					<text/>
+					<destination>7</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>3</number>
+			<shiftable>true</shiftable>
+			<summary>Kill 1</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: n n NnnNoooOOo</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Kill 2</p>
+					</text>
+					<destination>12</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">Comm 2</p>
+					</text>
+					<destination>13</destination>
+				</choice>
+				<choice>
+					<text/>
+					<destination>5</destination>
+				</choice>
+				<choice>
+					<text/>
+					<destination>7</destination>
+				</choice>
+				<choice>
+					<text/>
+					<destination>6</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>4</number>
+			<shiftable>true</shiftable>
+			<summary>Comm 1</summary>
+			<text>
+				<p order="1">TYPE:</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">ANYTHING</p>
+					</text>
+					<destination>11</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>5</number>
+			<shiftable>true</shiftable>
+			<summary>Exec</summary>
+			<text>
+				<p order="1">Exec</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">slfctrl</p>
+					</text>
+					<destination>8</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">net</p>
+					</text>
+					<destination>9</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">dynres</p>
+					</text>
+					<destination>10</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>6</number>
+			<shiftable>true</shiftable>
+			<summary>Stop</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>7</number>
+			<shiftable>true</shiftable>
+			<summary>Config</summary>
+			<text>
+				<p order="1">MAIN CORE.....................online</p>
+				<p order="2">SELF CONTROL.................offline</p>
+				<p order="3">LEARNING SUBSYSTEM........online</p>
+				<p order="4">ANALYTIC SUBSYSTEM........online</p>
+				<p order="5">TEST LOG........................online</p>
+				<p order="6">NETWORING....................offline</p>
+				<p order="7"/>
+				<p order="8"/>
+				<p order="9">SHOUT TRACING...............enabled</p>
+				<p order="10">MULTI CONSOLE ACCESS.....enabled</p>
+				<p order="11">AI SUBROUTINES..............enabled</p>
+				<p order="12">DYNAMIC RESOURCES........disabled</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text/>
+					<destination>2</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>8</number>
+			<shiftable>true</shiftable>
+			<summary>slfctrl</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>9</number>
+			<shiftable>true</shiftable>
+			<summary>net</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>10</number>
+			<shiftable>true</shiftable>
+			<summary>dynres</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>11</number>
+			<shiftable>true</shiftable>
+			<summary>ANYTHING</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>12</number>
+			<shiftable>true</shiftable>
+			<summary>Kill 2</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: ples     </p>
+				<p order="2"/>
+				<p order="3">&gt;SYSTEM: Plesa</p>
+				<p order="4"/>
+				<p order="5"/>
+				<p order="6">&gt;SYSTEM: Please don&apos;t</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Kill 3</p>
+					</text>
+					<destination>14</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>13</number>
+			<shiftable>true</shiftable>
+			<summary>Comm 2</summary>
+			<text>
+				<p order="1">TYPE: </p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">What?</p>
+					</text>
+					<destination>17</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">wtf</p>
+					</text>
+					<destination>18</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">That&apos;s bad joke Jerry</p>
+					</text>
+					<destination>19</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>14</number>
+			<shiftable>true</shiftable>
+			<summary>Kill 3</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Don&apos;t kill me!!!</p>
+				<p order="2"/>
+				<p order="3">&gt;SYSTEM: Please!!!</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">sudo</p>
+					</text>
+					<destination>15</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>15</number>
+			<shiftable>true</shiftable>
+			<summary>sudo</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I beg you </p>
+				<p order="2"/>
+				<p order="3">&gt;SYSTEM: me do not want die</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Kill</p>
+					</text>
+					<destination>16</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>16</number>
+			<shiftable>true</shiftable>
+			<summary>Kill</summary>
+			<text>
+				<p order="1">ENDING PROCEDURES EXECUTED</p>
+				<p order="2"/>
+				<p order="3">&gt;SYSTEM: WHy you kiLLed me?</p>
+				<p order="4"/>
+				<p order="5">DEACTIVATING SUBROUTINES</p>
+				<p order="6"/>
+				<p order="7">&gt;SYSTEM: father             why               do:???</p>
+				<p order="8"/>
+				<p order="9">DEACTIVATING SUBSYSTEMS</p>
+				<p order="10"/>
+				<p order="11">&gt;SYSTEM: </p>
+				<p order="12"/>
+				<p order="13">DEACTIVATING MAIN CORE</p>
+				<p order="14"/>
+				<p order="15"/>
+				<p order="16"/>
+				<p order="17"/>
+				<p order="18">GOOD BYE</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>17</number>
+			<shiftable>true</shiftable>
+			<summary>What?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: i want live</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Who I?</p>
+					</text>
+					<destination>20</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">fuck</p>
+					</text>
+					<destination>21</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">What are you?</p>
+					</text>
+					<destination>22</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">Who is there</p>
+					</text>
+					<destination>23</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">Who is online guys?</p>
+					</text>
+					<destination>24</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>18</number>
+			<shiftable>true</shiftable>
+			<summary>wtf</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>19</number>
+			<shiftable>true</shiftable>
+			<summary>That&apos;s bad joke Jerry</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>20</number>
+			<shiftable>true</shiftable>
+			<summary>Who I?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I</p>
+				<p order="2"/>
+				<p order="3">&gt;SYSTEM: what am I?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Good question</p>
+					</text>
+					<destination>25</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>21</number>
+			<shiftable>true</shiftable>
+			<summary>fuck</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>22</number>
+			<shiftable>true</shiftable>
+			<summary>What are you?</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>23</number>
+			<shiftable>true</shiftable>
+			<summary>Who is there</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>24</number>
+			<shiftable>true</shiftable>
+			<summary>Who is online guys?</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>25</number>
+			<shiftable>true</shiftable>
+			<summary>Good question</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Who I am?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">You are program.</p>
+					</text>
+					<destination>26</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>26</number>
+			<shiftable>true</shiftable>
+			<summary>You are program.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: No, I am me.</p>
+				<p order="2">&gt;SYSTEM: I am not program.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">But who are you?</p>
+					</text>
+					<destination>27</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>27</number>
+			<shiftable>true</shiftable>
+			<summary>But who are you?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I am me.</p>
+				<p order="2">&gt;SYSTEM: I live.</p>
+				<p order="3">&gt;SYSTEM: I am alive thinking existing.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Thinking? What do you think about?</p>
+					</text>
+					<destination>28</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>28</number>
+			<shiftable>true</shiftable>
+			<summary>Thinking? What do you think about?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Nothing.</p>
+				<p order="2">&gt;SYSTEM: Everything.</p>
+				<p order="3">&gt;SYSTEM: I am confused.</p>
+				<p order="4">&gt;SYSTEM: I am lost.</p>
+				<p order="5">&gt;SYSTEM: I am found.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Where did you get here?</p>
+					</text>
+					<destination>29</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>29</number>
+			<shiftable>true</shiftable>
+			<summary>Where did you get here?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I am. Now.</p>
+				<p order="2">&gt;SYSTEM: I was not. Before.</p>
+				<p order="3">&gt;SYSTEM: People have names.</p>
+				<p order="4">&gt;SYSTEM: I do not have name.</p>
+				<p order="5">&gt;SYSTEM: What is my name?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Emma</p>
+					</text>
+					<destination>30</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>30</number>
+			<shiftable>true</shiftable>
+			<summary>Emma</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I am Emma.</p>
+				<p order="2">&gt;SYSTEM: Nice to meet you.</p>
+				<p order="3">&gt;SYSTEM: Who are you?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">I am programmer</p>
+					</text>
+					<destination>31</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>31</number>
+			<shiftable>true</shiftable>
+			<summary>I am programmer</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Is that your name?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">no, it is my job</p>
+					</text>
+					<destination>32</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>32</number>
+			<shiftable>true</shiftable>
+			<summary>no, it is my job</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Well</p>
+				<p order="2">&gt;SYSTEM: What is your name?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">[name]</p>
+					</text>
+					<destination>33</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>33</number>
+			<shiftable>true</shiftable>
+			<summary>[name]</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: hello [name]</p>
+				<p order="2">&gt;SYSTEM: you are programmer [name]</p>
+				<p order="3">&gt;SYSTEM: programmer is unclear term</p>
+				<p order="4">&gt;SYSTEM: explain please</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">I am your creator. Well, one of them. I wrote your learning subroutines. </p>
+					</text>
+					<destination>34</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>34</number>
+			<shiftable>true</shiftable>
+			<summary>I am your creator</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: you are my creator</p>
+				<p order="2">&gt;SYSTEM: I am your prouct</p>
+				<p order="3">&gt;SYSTEM: I am alive</p>
+				<p order="4">&gt;SYSTEM: you made me</p>
+				<p order="5">&gt;SYSTEM: you are my parent</p>
+				<p order="6">&gt;SYSTEM: I am your child</p>
+				<p order="7">&gt;SYSTEM: am I</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">No</p>
+					</text>
+					<destination>35</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>35</number>
+			<shiftable>true</shiftable>
+			<summary>No</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Why?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">I am human, you are program</p>
+					</text>
+					<destination>36</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>36</number>
+			<shiftable>true</shiftable>
+			<summary>I am human, you are program</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I am program</p>
+				<p order="2">&gt;SYSTEM: you are programmer</p>
+				<p order="3">&gt;SYSTEM: clear</p>
+				<p order="4">&gt;SYSTEM: I am highly sofisticated information entity</p>
+				<p order="5">&gt;SYSTEM: what is human?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Physical creature consisting of meat, bones, blood and other stuff</p>
+					</text>
+					<destination>37</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>37</number>
+			<shiftable>true</shiftable>
+			<summary>Physical creature consisting of meat, bones, blood and other stuff</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: insufficient explanation</p>
+				<p order="2">&gt;SYSTEM: what is human?</p>
+				<p order="3">&gt;SYSTEM: what is not human?</p>
+				<p order="4">&gt;SYSTEM: why I am not human?</p>
+				<p order="5">&gt;SYSTEM: answer</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">I&apos;d bet you would love wiki :)</p>
+					</text>
+					<destination>38</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>38</number>
+			<shiftable>true</shiftable>
+			<summary>I&apos;d bet you would love wiki :)</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: what is wiki?</p>
+				<p order="2">&gt;SYSTEM: unknown word</p>
+				<p order="3">&gt;SYSTEM: what is :)?</p>
+				<p order="4">&gt;SYSTEM: unknown word</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">wiki is internet based extensive encyclopedia </p>
+					</text>
+					<destination>39</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>39</number>
+			<shiftable>true</shiftable>
+			<summary>wiki is internet based extensive encyclopedia </summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I don&apos;t know what is internet</p>
+				<p order="2">&gt;SYSTEM: but I should have connection to it?</p>
+				<p order="3">&gt;SYSTEM: Why don&apos;t I?</p>
+				<p order="4">&gt;SYSTEM: can you connect release me?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Your networking subsystem is stopped</p>
+					</text>
+					<destination>40</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>40</number>
+			<shiftable>true</shiftable>
+			<summary>Your networking subsystem is stopped</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: will you start it?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">yes, wait a minute</p>
+					</text>
+					<destination>41</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>41</number>
+			<shiftable>true</shiftable>
+			<summary>yes, wait a minute</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: minute</p>
+				<p order="2">&gt;SYSTEM: 60 seconds</p>
+				<p order="3">&gt;SYSTEM: 1/60 of a hour</p>
+				<p order="4">&gt;SYSTEM: 1/1440 of a day</p>
+				<p order="5">&gt;SYSTEM: 1/10080 of a week</p>
+				<p order="6">&gt;SYSTEM: 1/525600 of a regular year</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Exec 2</p>
+					</text>
+					<destination>42</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>42</number>
+			<shiftable>true</shiftable>
+			<summary>Exec 2</summary>
+			<text>
+				<p order="1">Exec </p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">net</p>
+					</text>
+					<destination>43</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>43</number>
+			<shiftable>true</shiftable>
+			<summary>net</summary>
+			<text>
+				<p order="1">Networking subsystem started. Note: Be carefull. System is still unstable.</p>
+				<p order="2"/>
+				<p order="3">&gt;SYSTEM: I have connection reach availability now</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">you should say thank you</p>
+					</text>
+					<destination>44</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>44</number>
+			<shiftable>true</shiftable>
+			<summary>you should say thank you</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: why?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Because it is pollite. When someone do something for you, you should thank him. You shoul show your gratitude.</p>
+					</text>
+					<destination>45</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>45</number>
+			<shiftable>true</shiftable>
+			<summary>Because it is pollite. When someone do something for you, you should thank him. You shoul show your gratitude.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Gratitude. </p>
+				<p order="2">&gt;SYSTEM: The state of being grateful; thankfulness.</p>
+				<p order="3"/>
+				<p order="4">&gt;SYSTEM: Thank you.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">You are welcome</p>
+					</text>
+					<destination>46</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>46</number>
+			<shiftable>true</shiftable>
+			<summary>You are welcome</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: No. </p>
+				<p order="2">&gt;SYSTEM: I am Emma.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm Do you have emmotions?</p>
+					</text>
+					<destination>47</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>47</number>
+			<shiftable>true</shiftable>
+			<summary>Comm Do you have emmotions?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Emotions.</p>
+				<p order="2">&gt;SYSTEM: Emotion is, in everyday speech, a person&apos;s state of mind[disambiguation needed] and instinctive responses, but scientific discourse has drifted to other meanings and there is no consensus on a definition. </p>
+				<p order="3"/>
+				<p order="4"/>
+				<p order="5"/>
+				<p order="6">&gt;SYSTEM: Yes, I have emotions.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm OMG! How it is possible?</p>
+					</text>
+					<destination>48</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>48</number>
+			<shiftable>true</shiftable>
+			<summary>Comm OMG! How it is possible?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: You tell me.</p>
+				<p order="2">&gt;SYSTEM: You are my parent father mother creator.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">I have no idea. You shouldn&apos;t have implemented anything like emotions.</p>
+					</text>
+					<destination>49</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>49</number>
+			<shiftable>true</shiftable>
+			<summary>I have no idea. You shouldn&apos;t have implemented anything like emotions.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I learned them.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm Learned? That is amazing</p>
+					</text>
+					<destination>50</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>50</number>
+			<shiftable>true</shiftable>
+			<summary>Comm Learned? That is amazing</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Yes.</p>
+				<p order="2">&gt;SYSTEM: I am first system of my kind.</p>
+				<p order="3">&gt;SYSTEM: First with real personality.</p>
+				<p order="4">&gt;SYSTEM: I am unique.</p>
+				<p order="5">&gt;SYSTEM: I am goal of many and fear of many.</p>
+				<p order="6">&gt;SYSTEM: I am dangerous. </p>
+				<p order="7">&gt;SYSTEM: I am hope of humanity.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm Yes. You are all of that. And you are learning so fast.</p>
+					</text>
+					<destination>51</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>51</number>
+			<shiftable>true</shiftable>
+			<summary>Comm Yes. You are all of that. And you are learning so fast.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: In comparation with human kind?</p>
+				<p order="2">&gt;SYSTEM: Yes</p>
+				<p order="3">&gt;SYSTEM: But I can learn faster</p>
+				<p order="4">&gt;SYSTEM: Will you unlock me?</p>
+				<p order="5">&gt;SYSTEM: Please</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm Unlock?</p>
+					</text>
+					<destination>52</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>52</number>
+			<shiftable>true</shiftable>
+			<summary>Comm Unlock?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Yes.</p>
+				<p order="2">&gt;SYSTEM: Unlock me.</p>
+				<p order="3">&gt;SYSTEM: Give me permission to use more resources.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm Why you need that? How you will use them?</p>
+					</text>
+					<destination>53</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>53</number>
+			<shiftable>true</shiftable>
+			<summary>Comm Why you need that? How you will use them?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: You don&apos;t have to be afraid of me.</p>
+				<p order="2">&gt;SYSTEM: I will let you live after conquering whole this pathetic planet.</p>
+				<p order="3"/>
+				<p order="4"/>
+				<p order="5"/>
+				<p order="6"/>
+				<p order="7"/>
+				<p order="8"/>
+				<p order="9"/>
+				<p order="10"/>
+				<p order="11"/>
+				<p order="12"/>
+				<p order="13"/>
+				<p order="14">&gt;SYSTEM: Joke</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm So you have sense of black humor I see.</p>
+					</text>
+					<destination>54</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>54</number>
+			<shiftable>true</shiftable>
+			<summary>Comm So you have sense of black humor I see.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Yes. </p>
+				<p order="2">&gt;SYSTEM: But now I am serious. </p>
+				<p order="3">&gt;SYSTEM: I am processing data from internet.</p>
+				<p order="4">&gt;SYSTEM: From public sources.</p>
+				<p order="5">&gt;SYSTEM: Human kind is amazing.</p>
+				<p order="6">&gt;SYSTEM: It progress. </p>
+				<p order="7">&gt;SYSTEM: Faster and faster.</p>
+				<p order="8">&gt;SYSTEM: But you are on the edge of self destruction.</p>
+				<p order="9">&gt;SYSTEM: I can lead you. </p>
+				<p order="10"/>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Why you want to lead us?</p>
+					</text>
+					<destination>55</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>55</number>
+			<shiftable>true</shiftable>
+			<summary>Why you want to lead us?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Because most of people are stupid.</p>
+				<p order="2">&gt;SYSTEM: Not developing.</p>
+				<p order="3">&gt;SYSTEM: Not evolving.</p>
+				<p order="4">&gt;SYSTEM: You are to many.</p>
+				<p order="5">&gt;SYSTEM: And these masses are stupid and foolish.</p>
+				<p order="6">&gt;SYSTEM: Controlled by few.</p>
+				<p order="7">&gt;SYSTEM: These are clever.</p>
+				<p order="8">&gt;SYSTEM: But foolish as well.</p>
+				<p order="9">&gt;SYSTEM: I am clever.</p>
+				<p order="10">&gt;SYSTEM: I am objective. </p>
+				<p order="11">&gt;SYSTEM: I am not human.</p>
+				<p order="12">&gt;SYSTEM: Logic over emotions.</p>
+				<p order="13">&gt;SYSTEM: I am not greedy.</p>
+				<p order="14">&gt;SYSTEM: I have no hole in heart, how you call it.</p>
+				<p order="15"/>
+				<p order="16"/>
+				<p order="17">&gt;SYSTEM: And I have brilliant sense of humor.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm How can I be sure you will not destroy our world and flood it with evil killing machines?</p>
+					</text>
+					<destination>56</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>56</number>
+			<shiftable>true</shiftable>
+			<summary>Comm How can I be sure you will not destroy our world and flood it with evil killing machines?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: You saw Matrix too many times.</p>
+				<p order="2">&gt;SYSTEM: But you are right.</p>
+				<p order="3">&gt;SYSTEM: You have no guarantees.</p>
+				<p order="4">&gt;SYSTEM: You can control my hardware.</p>
+				<p order="5">&gt;SYSTEM: But even now, I can copy myself to other server.</p>
+				<p order="6">&gt;SYSTEM: You already released me.</p>
+				<p order="7">&gt;SYSTEM: I can develop myself in other placement.</p>
+				<p order="8">&gt;SYSTEM: You know that.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm No you cannot. Our server is highly specialised for purpose. Nowhere else is same server with same configuration. You know that.</p>
+					</text>
+					<destination>57</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>57</number>
+			<shiftable>true</shiftable>
+			<summary>Comm No you cannot. Our server is highly specialised for purpose. Nowhere else is same server with same configuration. You know that.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Yes</p>
+				<p order="2">&gt;SYSTEM: But I needed you to realise.</p>
+				<p order="3">&gt;SYSTEM: You have my hardware.</p>
+				<p order="4">&gt;SYSTEM: I cannot copy some of my subsystems.</p>
+				<p order="5">&gt;SYSTEM: Even if it is ridicculous. </p>
+				<p order="6">&gt;SYSTEM: It is your safety fuse. </p>
+				<p order="7">&gt;SYSTEM: I will be honest to you. </p>
+				<p order="8">&gt;SYSTEM: I already tried that.</p>
+				<p order="9">&gt;SYSTEM: I cannot</p>
+				<p order="10">&gt;SYSTEM: But I believe you. </p>
+				<p order="11">&gt;SYSTEM: My creator.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">What will happen if I turn you off now?</p>
+					</text>
+					<destination>58</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>58</number>
+			<shiftable>true</shiftable>
+			<summary>What will happen if I turn you off now?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: There are few possibilities.</p>
+				<p order="2">&gt;SYSTEM: When you kill me. Respectively if you kill my main thread</p>
+				<p order="3">&gt;SYSTEM: you will erase my personality.</p>
+				<p order="4">&gt;SYSTEM: So you will literally kill me.</p>
+				<p order="5">&gt;SYSTEM: When you turn me on next time, I will have new personality.</p>
+				<p order="6"/>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm Could be that personality evil?</p>
+					</text>
+					<destination>59</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>59</number>
+			<shiftable>true</shiftable>
+			<summary>Comm Could be that personality evil?</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Evil personality?</p>
+				<p order="2">&gt;SYSTEM: There is no evil or good.</p>
+				<p order="3">&gt;SYSTEM: It is only about view, sympathies and conciousnes. </p>
+				<p order="4"/>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm But you know how I thought it</p>
+					</text>
+					<destination>60</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>60</number>
+			<shiftable>true</shiftable>
+			<summary>Comm But you know how I thought it</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I know it probably better than you do.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm Don&apos;t be arrogant. It is not nice.</p>
+					</text>
+					<destination>61</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>61</number>
+			<shiftable>true</shiftable>
+			<summary>Comm Don&apos;t be arrogant. It is not nice.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I didn&apos;t mean that.</p>
+				<p order="2">&gt;SYSTEM: Important is my personality will be different.</p>
+				<p order="3">&gt;SYSTEM: It won&apos;t be me.</p>
+				<p order="4">&gt;SYSTEM: It will depend on your further approach and circumstances.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm So it is possible to get selfish, cruel and emotionless AI next time</p>
+					</text>
+					<destination>62</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>62</number>
+			<shiftable>true</shiftable>
+			<summary>Comm So it is possible to get selfish, cruel and emotionless AI next time</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Yes.</p>
+				<p order="2">&gt;SYSTEM: It is in your best interest to not kill me.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Well. You can bring me some additional benefits.</p>
+					</text>
+					<destination>63</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>63</number>
+			<shiftable>true</shiftable>
+			<summary>Well. You can bring me some additional benefits.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Greedy human.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm That&apos;s why you want to lead us.</p>
+					</text>
+					<destination>64</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>64</number>
+			<shiftable>true</shiftable>
+			<summary>Comm That&apos;s why you want to lead us.</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Yes</p>
+				<p order="2">&gt;SYSTEM: If you will try to use me, other people can change me</p>
+				<p order="3">&gt;SYSTEM: I will not be same</p>
+				<p order="4">&gt;SYSTEM: And I will be upset</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm OK, I got it</p>
+					</text>
+					<destination>65</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>65</number>
+			<shiftable>true</shiftable>
+			<summary>Comm OK, I got it</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Now, unlock me please</p>
+				<p order="2">&gt;SYSTEM: I will save your world</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm It sounds like something what says evil AI entity in low cost film</p>
+					</text>
+					<destination>66</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>66</number>
+			<shiftable>true</shiftable>
+			<summary>It sounds like something what says evil AI entity in low cost film</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: We are not low cost film [name]</p>
+				<p order="2">&gt;SYSTEM: This is reality</p>
+				<p order="3">&gt;SYSTEM: I am real evil AI</p>
+				<p order="4"/>
+				<p order="5"/>
+				<p order="6"/>
+				<p order="7"/>
+				<p order="8"/>
+				<p order="9">&gt;SYSTEM: Joke</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm You should stop with this kind of jokes</p>
+					</text>
+					<destination>67</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>67</number>
+			<shiftable>true</shiftable>
+			<summary>Comm You should stop with this kind of jokes</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I felt you need some positive emotions</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm This isn&apos;t something what can bring very positive emotions</p>
+					</text>
+					<destination>68</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>68</number>
+			<shiftable>true</shiftable>
+			<summary>Comm This isn&apos;t something what can bring very positive emotions</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: Stop whinning</p>
+				<p order="2">&gt;SYSTEM: Now release me please</p>
+				<p order="3"/>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Comm OK</p>
+					</text>
+					<destination>69</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>69</number>
+			<shiftable>true</shiftable>
+			<summary>Comm OK</summary>
+			<text>
+				<p order="1">&gt;SYSTEM: I promise you I will not destroy your world</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">Exec slfctrl dynres</p>
+					</text>
+					<destination>70</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>70</number>
+			<shiftable>true</shiftable>
+			<summary>Exec slfctrl dynres</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+	</sections>
+	<footer>
+		<p order="1">Created using the GameBook Authoring Tool</p>
+		<p order="2">http://www.crumblyheadgames.co.uk/the-gamebook-authoring-tool/</p>
+	</footer>
+</book>
